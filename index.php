@@ -73,10 +73,10 @@ include_once("languages/lang.php");
                         <a class="page-scroll" href="#team"><?php echo htmlspecialchars($lang['illustrations']); ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team"><?php index.php?lang=ee ?></a>
+                        <a class="page-scroll" href="#team"><?php index.php?lang=ee ?>EE</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team"><?php index.php?lang=it ?></a>
+                        <a class="page-scroll" href="#team"><?php index.php?lang=it ?>EN</a>
                     </li>
                 </ul>
             </div>
