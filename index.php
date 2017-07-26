@@ -72,6 +72,12 @@ include_once("languages/lang.php");
                     <li>
                         <a class="page-scroll" href="#team"><?php echo htmlspecialchars($lang['illustrations']); ?></a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#team"><?php index.php?lang=ee ?></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team"><?php index.php?lang=it ?></a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
