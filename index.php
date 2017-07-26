@@ -1,4 +1,6 @@
-<?php
+<?php 
+include_once("languages/lang.php");
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -59,16 +61,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Tutvustus</a>
+                        <a class="page-scroll" href="#services"><?php echo htmlspecialchars($lang['introduction']); ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Videod</a>
+                        <a class="page-scroll" href="#portfolio"><?php echo htmlspecialchars($lang['videos']); ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Teenused</a>
+                        <a class="page-scroll" href="#about"><?php echo htmlspecialchars($lang['services']); ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Illustratsioonid</a>
+                        <a class="page-scroll" href="#team"><?php echo htmlspecialchars($lang['illustrations']); ?></a>
                     </li>
                 </ul>
             </div>
@@ -475,7 +477,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2017</span>
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -700,5 +702,3 @@
 </body>
 
 </html>
-
-?>
